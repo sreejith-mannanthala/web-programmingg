@@ -1,0 +1,13 @@
+<html>
+<head>
+</head>
+<body>
+<br>
+<h1><center>Festivals</center></h1>
+<div style="margin-top:80px;margin-bottom:100px;">
+<a href="c.html" target="_blank"><img  src="chr.jpg"  alt="" width="500px" height="700px" style="margin-left: 200px;" ></a> 
+<a href="d.html" target="_blank"><img  src="diw.jpg"  alt="" width="500px" height="700px"  > </a>
+<a href="h.html" target="_blank"><img  src="holi.jpg"  alt="" width="500px" height="700px" > </a>
+</div>
+</body>
+</html>

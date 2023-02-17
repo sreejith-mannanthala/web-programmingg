@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>forms</title>
+</head>
+<body>
+<form method="post" >
+<br>
+<br>
+<table border="2">
+<tr>
+<th><label for="First name">First name:</label></th><td><input type="text" name="fname" maxlength=30></td></tr>
+<tr><th><label for="Last name" >Last name:</label></th><td> <input type="text" name="lname" maxlength=30></td></tr>
+<tr><th><label for="dob" >Date of Birth:</label> </th><td><input type="date" name="dob"></td></tr>
+<tr><th><label for="email" >Email:</label> </th><td><input type="email" name="email"></td></tr>
+<tr><th><label for="mob" >Mobile Number:</label></th><td> <input type="number" name="pnumber" maxlength=10></td></tr>
+<tr><th><label for="gender" >Gender:</label></th><td> <input type="radio" name="gender">Male<input type="radio" name="gender">Female</td></tr>
+<tr><th><label for="address" >Address:</label></th><td><textarea rows="5" cols="30"> </textarea></td></tr>
+<tr><th><label for="city" >City:</label> </th><td><input type="text" name="city" maxlength=30></td></tr>
+<tr><th><label for="pin" >Pincode:</label> </th><td><input type="number" name="pin" maxlength=6></td></tr>
+<tr><th><label for="state" >State:</label></th><td> <input type="text" name="state" maxlength=30></td></tr>
+<tr><th><label for="country" >Country:</label> </th><td><input type="text" name="country" placeholder="India"></td></tr>
+<tr><th><label for="hobbies" >Hobbies:</label></th><td>Drawing<input type="checkbox" name="drawing"> Singing<input type="checkbox" name="singing"> Dancing<input type="checkbox" name="dancing"> Sketching<input type="checkbox" name="sketching">
+<br>others<input type="checkbox" name="others"><input type="text"></tr>
+<tr>
+<th>Qualification:</th><td><table border="1"><th>Sl No.</th><th>Examination</th><th>Board</th><th>Percentage</th><th>Year of Passing</th></tr>
+<td>1</td><td>Class X</td><td><input type="text" maxlength="10"></td><td><input type="number"></td><td><input type="year"></td></tr>
+<td>2</td><td>Class XII</td><td><input type="text" maxlength="10"></td><td><input type="number"></td><td><input type="year"></td></tr>
+<td>3</td><td>Graduation</td><td><input type="text" maxlength="10"></td><td><input type="number"></td><td><input type="year"></td></tr>
+<td>4</td><td>Masters</td><td><input type="text" maxlength="10"></td><td><input type="number"></td><td><input type="year"></td></tr>
+</table></td></tr>
+<tr><th><label for="courses">Courses applied for:</label></th><td> MCA<input type="radio" name="course"> M.Tech<input type="radio" name="course"> M.sc<input type="radio" name="course"> PhD<input type="radio" name="course"></td></tr>
+<tr><th><label for="password" >Type your Password:</label> </th><td><input type="password" name="password" maxlength=30></td></tr>
+<tr><th><label for="photo" >Upload your Photo:</label> </th><td><input type="file" name="file"></td></tr>
+<tr><th><label for="tc" >Date of TC:</label> </th><td><input type="date" name="tc"></td></tr>
+<td colspan="2"><center><input type="button" value="Submit"><input type="button" value="Reset"></center></td>
+</table>
+</form>
+</body>
+</html>
+
